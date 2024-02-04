@@ -338,23 +338,21 @@ padding-bottom: 120px;}
     overflow: hidden;
 }
 
-.item-app {
-    position: absolute;
-    top: 0;
-    background-color: #404BBF;
-    height: 100%;
-    display: flex;
-    padding: 40px 32px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    transform: translateY(100%);
-    transition: transform 300ms linear;
-    }
 
 .item-payment-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+        position: absolute;
+            top: 0;
+            background-color: #404BBF;
+            height: 100%;
+            display: flex;
+            padding: 40px 32px;
+            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+            transform: translateY(100%);
+            transition: transform 300ms linear;
 }
 
 .name-img {
