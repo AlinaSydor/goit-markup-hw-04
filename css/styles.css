@@ -165,10 +165,11 @@ gap: 24px;
 .two-icon-list {
     display: flex;
     justify-content: center;
+    gap: 24px;
 }
 
 .icon-list-two{
-    gap: 24px;
+
 }
 .two-icon-item {
     width: 264px;
