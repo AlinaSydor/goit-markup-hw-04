@@ -154,7 +154,7 @@ gap: 40px;}
 .icon-list-two {
     display: flex;
     justify-content: center;}
-    
+
 .section-two-list {display: flex;
 gap: 24px;
 }
@@ -167,23 +167,23 @@ gap: 24px;
     justify-content: center;
 }
 
+.icon-list-two{
+    gap: 24px;
+}
 .two-icon-item {
     width: 264px;
-    height: 112px;
-}
-
-.two-icon-link {
-    width: 100%;
-        height: 100%;
+        height: 112px;
         display: flex;
         align-items: center;
         justify-content: center;
-    border: 1px solid #8e8f99;
-    background-color: #f4f4fd;
-    border-radius: 4px;
+        border: 1px solid #8e8f99;
+        background-color: #f4f4fd;
+        border-radius: 4px;
 }
 
-.two-icon-icon {}
+.two-icon-icon {
+
+}
 
 .main-two-lead {
     color: #2E2F42;
