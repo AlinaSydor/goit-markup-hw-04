@@ -90,7 +90,7 @@ position: relative;
 .header-adress-list {display: flex;
 gap: 40px;
 }
-.contact-list {transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.contact {transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .header-adress-item {
     color: #434455;
         font-size: 16px;
@@ -99,7 +99,6 @@ gap: 40px;
         letter-spacing: 0.02em;
         text-align: left;
         flex-grow: 1;
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-item:hover {color:#404BBF}
 .header-adress-item:focus {
@@ -461,6 +460,7 @@ gap: 16px;}
 
 .footer-icon-icon {fill:  #F4F4FD;}
 
-.footer-icon-item :hover {background-color: #31D0AA;},
-.footer-icon-item :focus {background-color: #31D0AA;}
+.footer-icon-item:hover {background-color: #31D0AA;},
+.footer-icon-item:hover,
+ :focus {background-color: #31D0AA;}
 
