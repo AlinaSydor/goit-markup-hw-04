@@ -90,14 +90,7 @@ position: relative;
 .header-adress-list {display: flex;
 gap: 40px;
 }
-.contact-1{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
-}
-
-.contact-2 {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    ;
-}
+.contact-list {transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .header-adress-item {
     color: #434455;
         font-size: 16px;
@@ -248,7 +241,7 @@ padding: 120px 0;}
 }
 
 .section-three-list {display: flex;
-
+gap: 24px;
 }
 
 .section-three-item {background-color: white;
@@ -280,8 +273,9 @@ padding: 120px 0;}
 .icon-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
     margin-top: 8px;
+    gap: 24px;
+
 }
 
 .icon-item {
@@ -333,13 +327,13 @@ padding-bottom: 120px;}
 }
 
 
-.section-four-item {width: calc(100% - 48px) / 3;
+.section-four-item {width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-four-item :hover .item-payment-text
 {transform: translateY(0);}
-.section-four-item :hover {
+.section-four-list :hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 
@@ -444,7 +438,7 @@ margin-right: 120px;
         letter-spacing: 0.02em;
 }
 
-.icon-list {
+.footer-icon-list {
 display: flex;
 justify-content: center;
 gap: 16px;}
@@ -467,6 +461,6 @@ gap: 16px;}
 
 .footer-icon-icon {fill:  #F4F4FD;}
 
-.footer-icon-link :hover {background-color: #31D0AA;},
-.footer-icon-link :focus {background-color: #31D0AA;}
+.footer-icon-item :hover {background-color: #31D0AA;},
+.footer-icon-item :focus {background-color: #31D0AA;}
 
