@@ -62,6 +62,7 @@ gap: 40px;
         letter-spacing: 0.02em;
         text-align: left;
         padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item:hover {color:#404BBF}
@@ -70,7 +71,6 @@ gap: 40px;
 .studio{
 position: relative;
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -99,7 +99,7 @@ gap: 40px;
         letter-spacing: 0.02em;
         text-align: left;
         flex-grow: 1;
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress-item:hover {color:#404BBF}
 .header-adress-item:focus {
@@ -298,8 +298,8 @@ gap: 24px;
     fill: #f4f4fd;
 }
 
-.icon-item :hover {background-color: #404BBF;}
-.icon-item :focus {
+.icon-item:hover {background-color: #404BBF;}
+.icon-item:focus {
     background-color: #404BBF;
 }
 
@@ -331,9 +331,9 @@ padding-bottom: 120px;}
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-four-item :hover .item-payment-text
+.section-four-item:hover .item-payment-text
 {transform: translateY(0);}
-.section-four-list :hover {
+.section-four-list:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 
@@ -461,6 +461,6 @@ gap: 16px;}
 
 .footer-icon-icon {fill:  #F4F4FD;}
 
-.footer-icon-link :hover {background-color: #31D0AA;}
-.footer-icon-link :focus {background-color: #31D0AA;}
+.footer-icon-link:hover {background-color: #31D0AA;}
+.footer-icon-link:focus {background-color: #31D0AA;}
 
